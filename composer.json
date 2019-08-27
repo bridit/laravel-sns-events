@@ -1,0 +1,45 @@
+{
+    "name": "allermedia/laravel-sns-events",
+    "description": "A description for laravel-sns-events.",
+    "type": "package",
+    "license": "MIT",
+    "keywords": [
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Aller Media A/S"
+        },
+        {
+            "name": "Nicklas Kevin Frank (Aller Media A/S)",
+            "email": "nicklas.frank@aller.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.4",
+        "aws/aws-php-sns-message-validator": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AllerMedia\\LaravelSnsEvents\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AllerMedia\\LaravelSnsEvents\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AllerMedia\\LaravelSnsEvents\\LaravelSnsEventsServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    }
+}
