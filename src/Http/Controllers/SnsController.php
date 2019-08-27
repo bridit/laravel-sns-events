@@ -2,6 +2,7 @@
 
 namespace AllerMedia\LaravelSnsEvents\Http\Controllers;
 
+use Aws\Sns\Exception\InvalidSnsMessageException;
 use Aws\Sns\Message;
 use Aws\Sns\MessageValidator;
 use Illuminate\Routing\Controller;
