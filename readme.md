@@ -1,7 +1,7 @@
-[![Latest Stable Version](https://poser.pugx.org/allermedia/laravel-sns-events/v/stable)](https://packagist.org/packages/allerMedia/laravel-sns-events)
-[![Total Downloads](https://poser.pugx.org/allermedia/laravel-sns-events/downloads)](https://packagist.org/packages/allerMedia/laravel-sns-events)
-[![Monthly Downloads](https://poser.pugx.org/allermedia/laravel-sns-events/d/monthly)](https://packagist.org/packages/allerMedia/laravel-sns-events)
-[![License](https://poser.pugx.org/allerMedia/allermedia-sns-events/license)](https://packagist.org/packages/allerMedia/laravel-sns-events)
+[![Latest Stable Version](https://poser.pugx.org/allermedia/laravel-sns-events/v/stable)](https://packagist.org/packages/allermedia/laravel-sns-events)
+[![Total Downloads](https://poser.pugx.org/allermedia/laravel-sns-events/downloads)](https://packagist.org/packages/allermedia/laravel-sns-events)
+[![Monthly Downloads](https://poser.pugx.org/allermedia/laravel-sns-events/d/monthly)](https://packagist.org/packages/allermedia/laravel-sns-events)
+[![License](https://poser.pugx.org/allermedia/laravel-sns-events/license)](https://packagist.org/packages/allerMedia/laravel-sns-events)
 
 # Laravel SNS Events
 Laravel SNS Events allow you to listen to SNS webhooks via Laravel Events. It implements a controller that is made to properly listen to SNS HTTP(s) webhooks and trigger events on which you can listen to in Laravel.
